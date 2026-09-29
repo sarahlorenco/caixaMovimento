@@ -1,0 +1,25 @@
+.caixa {
+    background-color: steelblue;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    animation: rodar 2s linear infinite alternate;
+}
+
+.caixa:hover {
+    animation-play-state: paused;
+}
+
+@keyframes rodar {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

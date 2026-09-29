@@ -1,0 +1,22 @@
+body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.focus {
+    width: 150px;
+    height: 150px;
+    background: #d9d9d9;
+    border: 3px solid transparent;
+    outline: none;
+    transition: all 0.2s ease;
+}
+
+.focus:focus-visible {
+    border-color: #ff4da6;
+    background: #ffd6ea;
+    box-shadow: 0 0 0 4px rgba(255, 77, 166, 0.35);
+}
